@@ -1,0 +1,15 @@
+#secondary-ads{
+	width: 20%;
+	float: right;
+}
+
+.sec-ad-img{
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 960px){
+	#secondary-ads{
+		display: none;
+	}
+}

@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	font-style: Helvetica, sans-serif;
+}
+#widget {
+	width: 300px;
+	height: auto;
+	font-size: 0.6em;
+	background-color: #eee;
+	float-left;
+	margin: 10px 10px;
+}
+
+#widget h4{
+	margin-top: 8px;
+}
+
+#getBtn{
+	margin: 20px;
+}

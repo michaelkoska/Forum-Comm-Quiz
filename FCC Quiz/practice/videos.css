@@ -1,0 +1,10 @@
+.video{
+	width: 45%;
+	float: left;
+	text-align: center;
+	margin: 10px;
+}
+
+.top-videos{
+	width: 70%;
+}
