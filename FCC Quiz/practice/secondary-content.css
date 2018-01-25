@@ -1,6 +1,8 @@
 #secondary-content{
 	float: left;
 	vertical-align: top;
+	background-color: #fff;
+	padding: 10px;
 }
 
 /*latest news column*/

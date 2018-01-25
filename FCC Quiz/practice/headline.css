@@ -1,5 +1,6 @@
 #headline-img-container{
 	width: 90%;
+	margin: 20px 0;
 }
 
 #headline-img{
@@ -11,5 +12,13 @@
 #headline-content{
 	width: 30%;
 	float: left;
-	padding-left: 10px;
+	padding: 10px;
+	background-color: #fff;
+	height: 100%;
+}
+
+#headline{
+	background-color: #fff;
+	height: stretch;
+	padding-top: 20px;
 }

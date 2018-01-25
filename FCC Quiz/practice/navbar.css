@@ -1,0 +1,28 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	overflow: hidden;
+	position: fixed;
+	position: 0;
+	width: 100%;
+	background-color: #ddd;
+	height: 20px;
+}
+
+nav li{
+	list-style-type: none;
+}
+
+nav a{
+	color: #000;
+}
+
+@media screen and (max-width: 920px){
+	nav{
+		/*display: none;*/
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+}

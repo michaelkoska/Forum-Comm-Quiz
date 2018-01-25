@@ -6,6 +6,7 @@
 .sec-ad-img{
 	width: 100%;
 	height: auto;
+	margin-bottom: 20px;
 }
 
 @media screen and (max-width: 960px){
