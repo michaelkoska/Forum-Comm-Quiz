@@ -1,7 +1,8 @@
 const url = "https://api.stagingjobshq.com/madgexWidgetJobs.php?callback=displayJobs&city=Moorhead&state=Minnesota";
-
+var oneTime = true;
 
 function getWidget(){
+	if(oneTime){
 	var jobs = [];
 	$.ajax({
 	    url: "https://api.stagingjobshq.com/madgexWidgetJobs.php?callback=displayJobs&city=Moorhead&state=Minnesota",
@@ -31,7 +32,9 @@ function getWidget(){
 	        	jobFrag.appendChild(jobUrl);
 	        });
 	        document.getElementById("widget").appendChild(jobFrag);
+	        oneTime = false;
 
 	    }
 	});
+	}
 }
